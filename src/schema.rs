@@ -26,5 +26,5 @@ pub struct UpdateNoteSchema {
     pub title: Option<String>,
     pub content: Option<String>,
     pub category: Option<String>,
-    pub published: Option<String>,
+    pub published: Option<bool>,
 }
