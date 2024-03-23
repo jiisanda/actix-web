@@ -1,3 +1,6 @@
+mod model;
+mod schema;
+
 use actix_web::middleware::Logger;
 use actix_web::{App, get, HttpResponse, HttpServer, Responder};
 use serde_json::json;
